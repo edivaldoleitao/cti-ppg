@@ -1,0 +1,21 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT
+  ?autorNome
+  (COUNT(DISTINCT ?artigo) AS ?publicacoes)
+  (COALESCE(AVG(?citacoes), 0) AS ?mediaCitacoes)
+WHERE {
+  ?autor a cti:Autor ;
+         cti:nm_pessoa ?autorNome .
+
+  OPTIONAL {
+    ?autor cti:autoria ?artigo .
+  }
+
+  OPTIONAL {
+    ?autor cti:mensurado ?m .
+    ?m cti:nr_citacoes_autor ?citacoes .
+  }
+}
+GROUP BY ?autor ?autorNome
+ORDER BY DESC(?publicacoes) DESC(?mediaCitacoes)

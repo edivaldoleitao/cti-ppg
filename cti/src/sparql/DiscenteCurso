@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?programaNome (COUNT(?discente) AS ?qtdDiscentes)
+WHERE {
+  ?programa a cti:PPG ;
+            cti:nm_programa_ies ?programaNome .
+
+  ?discente a cti:Discente ;
+            cti:vinculado ?programa .
+}
+GROUP BY ?programaNome
+ORDER BY DESC(?qtdDiscentes)

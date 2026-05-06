@@ -1,0 +1,44 @@
+{ "head": {
+    "vars": [ "siglaIct" , "ppgNome" , "docente" , "docenteNome" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Engenharia de Produção" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-luiza" } ,
+        "docenteNome": { "type": "literal" , "value": "Luiza Carvalho" }
+      } ,
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Engenharia de Produção" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-maria" } ,
+        "docenteNome": { "type": "literal" , "value": "Maria Souza" }
+      } ,
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Engenharia de Produção" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-ricardo" } ,
+        "docenteNome": { "type": "literal" , "value": "Ricardo Lima" }
+      } ,
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFRPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Ciência, Tecnologia e Inovação" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-ana" } ,
+        "docenteNome": { "type": "literal" , "value": "Ana Silva" }
+      } ,
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFRPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Ciência, Tecnologia e Inovação" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-carlos" } ,
+        "docenteNome": { "type": "literal" , "value": "Carlos Pereira" }
+      } ,
+      { 
+        "siglaIct": { "type": "literal" , "value": "UFRPE" } ,
+        "ppgNome": { "type": "literal" , "value": "PPG em Ciência, Tecnologia e Inovação" } ,
+        "docente": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#docente-joao" } ,
+        "docenteNome": { "type": "literal" , "value": "João Oliveira" }
+      }
+    ]
+  }
+}

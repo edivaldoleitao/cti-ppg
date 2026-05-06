@@ -1,0 +1,802 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://gic.ufrpe.br/cti/description/cti-pe#"
+     xml:base="http://gic.ufrpe.br/cti/description/cti-pe"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cti="http://gic.ufrpe.br/cti/vocabulary/cti#"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cti-pe="http://gic.ufrpe.br/cti/description/cti-pe#">
+    <owl:Ontology rdf:about="http://gic.ufrpe.br/cti/description/cti-pe">
+        <owl:imports rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti"/>
+        <owl:imports rdf:resource="http://purl.org/dc/elements/1.1"/>
+        <oml:namespace rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#"/>
+        <oml:prefix>cti-pe</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+        <dc:description>Descrição de alguns elementos de CT&amp;I em Pernambuco</dc:description>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#autoria -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#autoria"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#avaliado -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#avaliado"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#membro -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#membro"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#mensurado -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#mensurado"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#orientador -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#orientador"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#publicada -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#publicada"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#sediado -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#sediado"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#vinculado -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#vinculado"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#an_base_citacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#an_base_citacao"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#an_base_conceito -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#an_base_conceito"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#an_base_producao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#an_base_producao"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#an_nascimento -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#an_nascimento"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#cd_conceito_programa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#cd_conceito_programa"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#cd_entidade_capes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#cd_entidade_capes"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#cd_programa_ies -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#cd_programa_ies"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#ds_doi -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#ds_doi"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#ds_isbn_issn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#ds_isbn_issn"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#ds_natureza -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#ds_natureza"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#ds_orc_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#ds_orc_id"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#ds_regime_trabalho -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#ds_regime_trabalho"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#id_pessoa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#id_pessoa"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_area_conhecimento -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_area_conhecimento"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_entidade_ensino -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_entidade_ensino"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_modalidade_programa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_modalidade_programa"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_pais_nacionalidade -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_pais_nacionalidade"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_pessoa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_pessoa"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_programa_ies -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_programa_ies"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_situacao_discente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_situacao_discente"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_titulo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_titulo"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nm_veiculo_publicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nm_veiculo_publicacao"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nr_citacoes_autor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nr_citacoes_autor"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#nr_documento -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#nr_documento"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#sg_entidade_ensino -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#sg_entidade_ensino"/>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#sg_uf -->
+
+
+    <owl:DatatypeProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#sg_uf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-1">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</cti:an_base_producao>
+        <cti:ds_doi>10.1234/cti.2022.0001</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Indicadores de CT&amp;I em Pernambuco: uma análise exploratória</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-2">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</cti:an_base_producao>
+        <cti:ds_doi>10.1234/cti.2023.0002</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Redes de colaboração científica no Nordeste brasileiro</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-3">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</cti:an_base_producao>
+        <cti:ds_doi>10.1234/cti.2024.0003</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Inovação aberta e universidades públicas: o caso de Pernambuco</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-4">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</cti:an_base_producao>
+        <cti:ds_doi>10.1234/cti.2024.0004</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Formação de recursos humanos em CT&amp;I na Região Nordeste</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-1">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</cti:an_base_producao>
+        <cti:ds_doi>10.5678/ep.2021.0001</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Eficiência de processos produtivos na indústria pernambucana</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-2">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</cti:an_base_producao>
+        <cti:ds_doi>10.5678/ep.2022.0002</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Aplicações de indústria 4.0 em cadeias produtivas locais</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-3">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</cti:an_base_producao>
+        <cti:ds_doi>10.5678/ep.2023.0003</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Modelagem de sistemas de produção sustentáveis em Pernambuco</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-4">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <cti:publicada rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao"/>
+        <cti:an_base_producao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</cti:an_base_producao>
+        <cti:ds_doi>10.5678/ep.2024.0004</cti:ds_doi>
+        <cti:ds_natureza>Artigo em periódico</cti:ds_natureza>
+        <cti:nm_titulo>Análise de capacidade inovativa em parques tecnológicos</cti:nm_titulo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-ana -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-ana">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-1"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-2"/>
+        <cti:mensurado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#citacao-ana-2024"/>
+        <cti:ds_orc_id>0000-0001-0000-000A</cti:ds_orc_id>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</cti:id_pessoa>
+        <cti:nm_pessoa>Ana Silva</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-carlos -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-carlos">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-1"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-3"/>
+        <cti:ds_orc_id>0000-0001-0000-000C</cti:ds_orc_id>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</cti:id_pessoa>
+        <cti:nm_pessoa>Carlos Pereira</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-joao -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-joao">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-2"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-cti-4"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</cti:id_pessoa>
+        <cti:nm_pessoa>João Oliveira</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-luiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-luiza">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-3"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</cti:id_pessoa>
+        <cti:nm_pessoa>Luiza Carvalho</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-maria -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-maria">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-1"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-2"/>
+        <cti:mensurado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#citacao-maria-2024"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</cti:id_pessoa>
+        <cti:nm_pessoa>Maria Souza</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#autor-ricardo -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#autor-ricardo">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-1"/>
+        <cti:autoria rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#artigo-ep-4"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</cti:id_pessoa>
+        <cti:nm_pessoa>Ricardo Lima</cti:nm_pessoa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#citacao-ana-2024 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#citacao-ana-2024">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Citacao"/>
+        <cti:an_base_citacao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</cti:an_base_citacao>
+        <cti:nr_citacoes_autor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</cti:nr_citacoes_autor>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#citacao-maria-2024 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#citacao-maria-2024">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Citacao"/>
+        <cti:an_base_citacao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</cti:an_base_citacao>
+        <cti:nr_citacoes_autor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</cti:nr_citacoes_autor>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-cti-ufrpe-2021 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-cti-ufrpe-2021">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Conceito_PPG"/>
+        <cti:an_base_conceito rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</cti:an_base_conceito>
+        <cti:cd_conceito_programa>6</cti:cd_conceito_programa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-engenharia-producao-ufpe-2021 -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-engenharia-producao-ufpe-2021">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Conceito_PPG"/>
+        <cti:an_base_conceito rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</cti:an_base_conceito>
+        <cti:cd_conceito_programa>5</cti:cd_conceito_programa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#discente-bruno -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#discente-bruno">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Discente"/>
+        <cti:orientador rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#docente-ana"/>
+        <cti:vinculado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</cti:id_pessoa>
+        <cti:nm_pessoa>Bruno Souza</cti:nm_pessoa>
+        <cti:nm_situacao_discente>Matriculado</cti:nm_situacao_discente>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#discente-carla -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#discente-carla">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Discente"/>
+        <cti:orientador rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#docente-carlos"/>
+        <cti:vinculado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</cti:id_pessoa>
+        <cti:nm_pessoa>Carla Santos</cti:nm_pessoa>
+        <cti:nm_situacao_discente>Egresso</cti:nm_situacao_discente>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#discente-larissa -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#discente-larissa">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Discente"/>
+        <cti:orientador rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#docente-ricardo"/>
+        <cti:vinculado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</cti:id_pessoa>
+        <cti:nm_pessoa>Larissa Freitas</cti:nm_pessoa>
+        <cti:nm_situacao_discente>Egresso</cti:nm_situacao_discente>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#discente-paulo -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#discente-paulo">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Discente"/>
+        <cti:orientador rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#docente-maria"/>
+        <cti:vinculado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe"/>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</cti:id_pessoa>
+        <cti:nm_pessoa>Paulo Ferreira</cti:nm_pessoa>
+        <cti:nm_situacao_discente>Matriculado</cti:nm_situacao_discente>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-ana -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-ana">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Dedicação exclusiva</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>Ana Silva</cti:nm_pessoa>
+        <cti:nr_documento>00000000000</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-carlos -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-carlos">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Tempo integral</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>Carlos Pereira</cti:nm_pessoa>
+        <cti:nr_documento>11111111111</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-joao -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-joao">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Tempo parcial</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>João Oliveira</cti:nm_pessoa>
+        <cti:nr_documento>22222222222</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-luiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-luiza">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Tempo parcial</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>Luiza Carvalho</cti:nm_pessoa>
+        <cti:nr_documento>55555555555</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-maria -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-maria">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Dedicação exclusiva</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>Maria Souza</cti:nm_pessoa>
+        <cti:nr_documento>33333333333</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#docente-ricardo -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#docente-ricardo">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+        <cti:membro rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe"/>
+        <cti:an_nascimento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1973</cti:an_nascimento>
+        <cti:ds_regime_trabalho>Tempo integral</cti:ds_regime_trabalho>
+        <cti:id_pessoa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</cti:id_pessoa>
+        <cti:nm_pais_nacionalidade>Brasil</cti:nm_pais_nacionalidade>
+        <cti:nm_pessoa>Ricardo Lima</cti:nm_pessoa>
+        <cti:nr_documento>44444444444</cti:nr_documento>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#ict-ufpe -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#ict-ufpe">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#ICT"/>
+        <cti:cd_entidade_capes>25002</cti:cd_entidade_capes>
+        <cti:nm_entidade_ensino>Universidade Federal de Pernambuco</cti:nm_entidade_ensino>
+        <cti:sg_entidade_ensino>UFPE</cti:sg_entidade_ensino>
+        <cti:sg_uf>PE</cti:sg_uf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#ict-ufrpe -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#ict-ufrpe">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#ICT"/>
+        <cti:cd_entidade_capes>23004</cti:cd_entidade_capes>
+        <cti:nm_entidade_ensino>Universidade Federal Rural de Pernambuco</cti:nm_entidade_ensino>
+        <cti:sg_entidade_ensino>UFRPE</cti:sg_entidade_ensino>
+        <cti:sg_uf>PE</cti:sg_uf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#periodico-cti">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Veiculo_Publicacao"/>
+        <cti:ds_isbn_issn>1234-5678</cti:ds_isbn_issn>
+        <cti:nm_veiculo_publicacao>Revista Brasileira de CT&amp;I</cti:nm_veiculo_publicacao>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#periodico-inovacao">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Veiculo_Publicacao"/>
+        <cti:ds_isbn_issn>8765-4321</cti:ds_isbn_issn>
+        <cti:nm_veiculo_publicacao>Journal of Innovation and Technology</cti:nm_veiculo_publicacao>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#PPG"/>
+        <cti:avaliado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-cti-ufrpe-2021"/>
+        <cti:sediado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ict-ufrpe"/>
+        <cti:cd_programa_ies>23004012001P5</cti:cd_programa_ies>
+        <cti:nm_area_conhecimento>Interdisciplinar</cti:nm_area_conhecimento>
+        <cti:nm_modalidade_programa>Acadêmico</cti:nm_modalidade_programa>
+        <cti:nm_programa_ies>PPG em Ciência, Tecnologia e Inovação</cti:nm_programa_ies>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe -->
+
+
+    <owl:NamedIndividual rdf:about="http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe">
+        <rdf:type rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#PPG"/>
+        <cti:avaliado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#conceito-ppg-engenharia-producao-ufpe-2021"/>
+        <cti:sediado rdf:resource="http://gic.ufrpe.br/cti/description/cti-pe#ict-ufpe"/>
+        <cti:cd_programa_ies>25002019001P3</cti:cd_programa_ies>
+        <cti:nm_area_conhecimento>Engenharias</cti:nm_area_conhecimento>
+        <cti:nm_modalidade_programa>Acadêmico</cti:nm_modalidade_programa>
+        <cti:nm_programa_ies>PPG em Engenharia de Produção</cti:nm_programa_ies>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

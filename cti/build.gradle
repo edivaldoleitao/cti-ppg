@@ -34,10 +34,8 @@ buildscript {
  * Dataset-specific variables
  */
 ext {
-    // Name of dataset (matches one used in .fuseki.ttl file)
     dataset = 'cti'
-    // Root ontology IRI of the dataset
-    rootIri = 'http://gic.ufrpe.br/cti/bundle'
+    rootIri = 'http://gic.ufrpe.br/cti/vocabulary/bundle'
 }
 
 /*

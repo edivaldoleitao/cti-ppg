@@ -1,0 +1,11 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?instituicao (COUNT(DISTINCT ?ppg) AS ?qtd)
+WHERE {
+  ?ppg a cti:PPG ;
+       cti:sediado ?ict .
+
+  ?ict cti:nm_entidade_ensino ?instituicao .
+}
+GROUP BY ?instituicao
+ORDER BY DESC(?qtd)

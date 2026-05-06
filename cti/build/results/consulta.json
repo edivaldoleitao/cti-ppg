@@ -1,0 +1,551 @@
+{ "head": {
+    "vars": [ "x" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013005p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019003p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019053p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019079p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019072p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018073p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#ppg-cti-ufrpe" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019172p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe#ppg-engenharia-producao-ufpe" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011026p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019078p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019082p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25005014004p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-26038005001p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018006p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011010p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019171p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011075p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25018019001p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013010p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019054p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018074p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019007p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019173p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019083p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011031p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011011p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019010p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25007017001p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019093p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019036p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011030p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018010p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015005p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011009p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019065p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011032p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011019p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018008p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011012p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019018p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25007017002p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019094p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019037p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011018p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018018p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011022p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018011p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015006p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019021p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013003p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019001p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019040p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019066p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018017p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011071p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019050p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019019p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019095p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018070p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-26017008001p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018019p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019029p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015007p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019022p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013004p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019048p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019002p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25005014001p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011072p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019058p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015010p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019077p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018071p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011005p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25009010001p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013043p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019157p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019087p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019023p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019080p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011073p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019033p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019059p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019052p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018072p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019032p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011006p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019062p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019088p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019081p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011036p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019015p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019061p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019034p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019091p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018015p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015003p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019044p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019090p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019063p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019089p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015002p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011037p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011017p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019016p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019073p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019092p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011027p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018016p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011020p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013008p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015004p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013001p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019045p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011038p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019017p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019074p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011002p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019174p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011028p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011021p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019027p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013009p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019020p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013002p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019046p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011001p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019026p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011070p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019030p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019075p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019009p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011003p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019055p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011029p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-26013002001p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019028p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019085p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011033p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018009p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011013p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019012p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013040p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019038p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019084p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019031p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-22001018074p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019057p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018012p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019041p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25016016002p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019060p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013042p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019156p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25019015002p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011014p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019013p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019039p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25025015001p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25019015001p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018013p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015008p8" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015001p3" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25005014002p9" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019068p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011015p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019097p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25025015002p2" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011025p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25004018014p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25002015009p4" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25017012001p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019024p7" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25020013006p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019004p6" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019043p1" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25005014003p5" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25001019069p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011024p0" }
+      } ,
+      { 
+        "x": { "type": "uri" , "value": "http://gic.ufrpe.br/cti/description/cti-pe-csv#ppg-25003011074p7" }
+      }
+    ]
+  }
+}

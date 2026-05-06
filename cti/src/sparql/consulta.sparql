@@ -1,0 +1,6 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?x
+WHERE {
+  ?x a cti:PPG .
+}

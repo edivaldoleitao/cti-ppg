@@ -8,5 +8,7 @@ description bundle <http://gic.ufrpe.br/cti/vocabulary/bundle#> as ^bundle {
 
 	// O description bundle "inclui" a descrição CTI-PE
 	includes <http://gic.ufrpe.br/cti/description/cti-pe#>
+	includes <http://gic.ufrpe.br/cti/description/cti-pe-csv#>
+
 
 }

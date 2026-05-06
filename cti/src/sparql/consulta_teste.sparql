@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?ppg_nome ?ano ?conceito
+WHERE {
+  ?ppg a cti:PPG ;
+       cti:nm_programa_ies ?ppg_nome ;
+       cti:avaliado ?c .
+
+  ?c cti:an_base_conceito ?ano ;
+     cti:cd_conceito_programa ?conceito .
+}
+ORDER BY ?ppg_nome ?ano

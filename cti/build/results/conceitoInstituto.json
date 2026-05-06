@@ -1,0 +1,80 @@
+{ "head": {
+    "vars": [ "instituicao" , "qtd" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "85" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "37" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "18" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE CATÓLICA DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "10" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "INSTITUTO DE MEDICINA INTEGRAL PROFESSOR FERNANDO FIGUEIRA" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "CENTRO DE ESTUDOS E SISTEMAS AVANÇADOS DO RECIFE" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE PERNAMBUCANA DE SAÚDE" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FIOCRUZ ( CENTRO DE PESQUISA AGGEU MAGALHÃES )" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "ASSOCIAÇÃO INSTITUTO DE TECNOLOGIA DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "CENTRO UNIVERSITÁRIO DOS GUARARAPES" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE BOA VIAGEM" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE CERS" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE DAMAS DA INSTRUÇÃO CRISTÃ" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FUNDACAO JOAQUIM NABUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "INSTITUTO FED. DE EDUC., CIÊNCIA E TECNOLOGIA DE PERNAMBUCO" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "Universidade Federal Rural de Pernambuco" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "Universidade Federal de Pernambuco" } ,
+        "qtd": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" }
+      }
+    ]
+  }
+}

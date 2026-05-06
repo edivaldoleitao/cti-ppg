@@ -1,0 +1,16 @@
+{ "head": {
+    "vars": [ "autorNome" , "mediaCitacoes" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "autorNome": { "type": "literal" , "value": "Maria Souza" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "40.0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "Ana Silva" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "25.0" }
+      }
+    ]
+  }
+}

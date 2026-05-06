@@ -1,0 +1,38 @@
+{ "head": {
+    "vars": [ "autorNome" , "publicacoes" , "mediaCitacoes" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "autorNome": { "type": "literal" , "value": "Maria Souza" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "40.0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "Ana Silva" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "25.0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "Carlos Pereira" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "João Oliveira" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "Ricardo Lima" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      } ,
+      { 
+        "autorNome": { "type": "literal" , "value": "Luiza Carvalho" } ,
+        "publicacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "1" } ,
+        "mediaCitacoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "0" }
+      }
+    ]
+  }
+}

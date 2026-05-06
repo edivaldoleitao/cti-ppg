@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuites name="http://gic.ufrpe.br/cti/vocabulary/bundle">
+  <testsuite name="Consistency">
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/bundle"/>
+  </testsuite>
+  <testsuite name="Satisfiability">
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Conceito_PPG"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#ICT"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Citacao"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Autor"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Veiculo_Publicacao"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Pessoa"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Discente"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Docente"/>
+    <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#PPG"/>
+  </testsuite>
+</testsuites>

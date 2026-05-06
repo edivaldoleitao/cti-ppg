@@ -1,14 +1,11 @@
-// Vocabulário estruturado focado na Temática 4: Gestão do conhecimento sobre a pós-graduação em Pernambuco[cite: 2].
-// Pergunta de pesquisa: Como o Conceito do PPG correlaciona-se com a quantidade e qualidade da produção (2021-2024)?[cite: 2].
 vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
+
 	extends <http://www.w3.org/2001/XMLSchema#> as xsd
 
-	// Entidade central que representa o programa de pós-graduação[cite: 2].
 	concept PPG
 
 	concept ICT
 
-	// Armazena a nota atribuída pela CAPES[cite: 2].
 	concept Conceito_PPG
 
 	relation sediado [
@@ -16,7 +13,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		to ICT
 	]
 
-	// Vincula o PPG ao seu respectivo Conceito_PPG (Nota da CAPES)[cite: 2].
 	relation avaliado [
 		from PPG
 		to Conceito_PPG
@@ -26,14 +22,12 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 
 	concept Docente < Pessoa
 
-	// Associa o Discente ao programa de origem[cite: 2].
 	relation vinculado [
 		from Discente
 		to PPG
 	]
 
-	// Associa o Docente ao programa de origem[cite: 2].
-	relation membro [ 
+	relation membro [
 		from Docente
 		to PPG
 	]
@@ -45,8 +39,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:integer
 	]
 
-	// METADADO DE OURO: Variável Independente[cite: 2].
-	// Fonte: Dados Abertos CAPES (PPGs). Representa a nota (3 a 7) de desempenho/excelência[cite: 2].
 	scalar property cd_conceito_programa [
 		domain Conceito_PPG
 		range xsd:string
@@ -67,7 +59,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:string
 	]
 
-	// Filtro de Escopo Geográfico: Restringir à "PE" (Instituições de Pernambuco)[cite: 2].
 	scalar property sg_uf [
 		domain ICT
 		range xsd:string
@@ -175,7 +166,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:string
 	]
 
-	// Consistência de Identificadores: Cruzamento com Scopus API[cite: 2].
 	scalar property ds_scopus_id [
 		domain Autor
 		range xsd:string
@@ -186,11 +176,8 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:string
 	]
 
-	// Representa o artefato de conhecimento gerado (Externalizado)[cite: 2].
 	concept Producao_Cientifica
 
-	// METADADO DE OURO: Volume (Quantidade)[cite: 2].
-	// Fonte: Dados Abertos CAPES (Produção). Filtro de Escopo Temporal: Ciclo 2021-2024[cite: 2].
 	scalar property an_base_producao [
 		domain Producao_Cientifica
 		range xsd:integer
@@ -216,17 +203,14 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:string
 	]
 
-	// Consistência de Identificadores: Cruzamento com a CAPES[cite: 2].
 	scalar property ds_doi [
 		domain Producao_Cientifica
 		range xsd:string
 	]
 
-	// METADADO DE OURO: Impacto (Qualidade)[cite: 2].
-	// Fonte: Scopus API (via DOI). Modificado para integer para melhor refletir métricas estatísticas[cite: 2].
 	scalar property nr_citacoes_publicacao [
 		domain Producao_Cientifica
-		range xsd:integer
+		range xsd:string
 	]
 
 	relation autoria [
@@ -234,7 +218,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		to Producao_Cientifica
 	]
 
-	// Classifica o prestígio da revista ou conferência onde o trabalho foi publicado[cite: 2].
 	concept Veiculo_Publicacao
 
 	scalar property nm_veiculo_publicacao [
@@ -242,7 +225,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:string
 	]
 
-	// Identificador utilizado para extrair métricas de prestígio na Scopus API[cite: 2].
 	scalar property ds_isbn_issn [
 		domain Veiculo_Publicacao
 		range xsd:string
@@ -253,20 +235,16 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:int
 	]
 	
-	// METADADO DE OURO: Prestígio (Qualidade)[cite: 2].
-	// Fonte: Scopus API (via ISSN)[cite: 2].
 	scalar property nr_quartil_scopus [
 		domain Veiculo_Publicacao
 		range xsd:int
 	]
 
-	// Conecta a Producao_Cientifica ao seu Veiculo_Publicacao (Revista/Conferência)[cite: 2].
 	relation publicada [
 		from Producao_Cientifica
 		to Veiculo_Publicacao
 	]
 
-	// Define as métricas de qualidade e impacto do pesquisador ou obra[cite: 2].
 	concept Citacao
 
 	scalar property an_base_citacao [
@@ -274,8 +252,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:integer
 	]
 
-	// METADADO DE OURO: Produtividade Individual[cite: 2].
-	// Fonte: Scopus API (via Scopus ID). Mede a influência do pesquisador[cite: 2].
 	scalar property nr_indice_h [
 		domain Citacao
 		range xsd:int
@@ -291,7 +267,6 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
 		range xsd:integer
 	]
 
-	// Relaciona o impacto (Citacao) ao pesquisador (Autor)[cite: 2].
 	relation mensurado [
 		from Autor
 		to Citacao

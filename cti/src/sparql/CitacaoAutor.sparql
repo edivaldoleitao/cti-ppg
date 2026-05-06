@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?autorNome (AVG(?citacoes) AS ?mediaCitacoes)
+WHERE {
+  ?autor a cti:Autor ;
+         cti:nm_pessoa ?autorNome ;
+         cti:mensurado ?m .
+
+  ?m cti:nr_citacoes_autor ?citacoes .
+}
+GROUP BY ?autorNome
+ORDER BY DESC(?mediaCitacoes)

@@ -1,0 +1,48 @@
+{ "head": {
+    "vars": [ "ano" , "veiculo" , "titulo" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2021" } ,
+        "veiculo": { "type": "literal" , "value": "Revista Brasileira de CT&I" } ,
+        "titulo": { "type": "literal" , "value": "Eficiência de processos produtivos na indústria pernambucana" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2022" } ,
+        "veiculo": { "type": "literal" , "value": "Revista Brasileira de CT&I" } ,
+        "titulo": { "type": "literal" , "value": "Aplicações de indústria 4.0 em cadeias produtivas locais" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2022" } ,
+        "veiculo": { "type": "literal" , "value": "Revista Brasileira de CT&I" } ,
+        "titulo": { "type": "literal" , "value": "Indicadores de CT&I em Pernambuco: uma análise exploratória" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2023" } ,
+        "veiculo": { "type": "literal" , "value": "Journal of Innovation and Technology" } ,
+        "titulo": { "type": "literal" , "value": "Modelagem de sistemas de produção sustentáveis em Pernambuco" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2023" } ,
+        "veiculo": { "type": "literal" , "value": "Revista Brasileira de CT&I" } ,
+        "titulo": { "type": "literal" , "value": "Redes de colaboração científica no Nordeste brasileiro" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2024" } ,
+        "veiculo": { "type": "literal" , "value": "Journal of Innovation and Technology" } ,
+        "titulo": { "type": "literal" , "value": "Análise de capacidade inovativa em parques tecnológicos" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2024" } ,
+        "veiculo": { "type": "literal" , "value": "Journal of Innovation and Technology" } ,
+        "titulo": { "type": "literal" , "value": "Formação de recursos humanos em CT&I na Região Nordeste" }
+      } ,
+      { 
+        "ano": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "2024" } ,
+        "veiculo": { "type": "literal" , "value": "Journal of Innovation and Technology" } ,
+        "titulo": { "type": "literal" , "value": "Inovação aberta e universidades públicas: o caso de Pernambuco" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?ict_nome ?ppg_nome
+WHERE {
+  ?ict a cti:ICT ;
+       cti:nm_entidade_ensino ?ict_nome .
+
+  ?ppg a cti:PPG ;
+       cti:nm_programa_ies ?ppg_nome ;
+       cti:sediado ?ict .
+}
+ORDER BY ?ict_nome ?ppg_nome

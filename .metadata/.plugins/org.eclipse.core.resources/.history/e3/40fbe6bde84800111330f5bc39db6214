@@ -1,0 +1,17 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?programaNome ?conceito (COUNT(DISTINCT ?artigo) AS ?producoes)
+WHERE {
+  ?programa a cti:PPG ;
+            cti:nm_programa_ies ?programaNome ;
+            cti:avaliado ?avaliacao .
+
+  ?avaliacao cti:cd_conceito_programa ?conceito .
+
+  ?artigo a cti:Producao_Cientifica ;
+          cti:an_base_producao ?ano .
+
+  FILTER(?ano >= 2021 && ?ano <= 2024)
+}
+GROUP BY ?programaNome ?conceito
+ORDER BY DESC(?producoes)

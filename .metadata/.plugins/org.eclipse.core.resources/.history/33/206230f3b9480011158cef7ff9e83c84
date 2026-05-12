@@ -1,0 +1,8 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?programa ?nome
+WHERE {
+  ?programa a cti:PPG ;
+            cti:nm_programa_ies ?nome .
+}
+ORDER BY ?nome

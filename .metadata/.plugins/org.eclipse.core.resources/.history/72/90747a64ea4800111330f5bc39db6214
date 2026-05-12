@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?autorNome ?ano ?citacoes
+WHERE {
+  ?autor a cti:Autor ;
+         cti:nm_pessoa ?autorNome ;
+         cti:mensurado ?medida .
+
+  ?medida cti:an_base_citacao ?ano ;
+          cti:nr_citacoes_autor ?citacoes .
+}
+ORDER BY DESC(?citacoes)

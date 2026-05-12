@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oml="http://opencaesar.io/oml" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_hVJt8E4uEfGK0oCiVvr0Ww" selectedViews="_JUCB0E4vEfGK0oCiVvr0Ww" version="15.2.0.202303281325">
+    <semanticResources>src/oml/gic.ufrpe.br/cti/vocabulary/cti.oml</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_JUCB0E4vEfGK0oCiVvr0Ww">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ju1ugE4vEfGK0oCiVvr0Ww" name="Cti Editor" repPath="#_Ju1HcE4vEfGK0oCiVvr0Ww" changeId="1778609985787">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']"/>
+        <target xmi:type="oml:Vocabulary" href="src/oml/gic.ufrpe.br/cti/vocabulary/cti.oml#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Ju1HcE4vEfGK0oCiVvr0Ww">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Ju2VkE4vEfGK0oCiVvr0Ww" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Ju2VkU4vEfGK0oCiVvr0Ww" type="Sirius" element="_Ju1HcE4vEfGK0oCiVvr0Ww" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_JvG0QE4vEfGK0oCiVvr0Ww" type="2001" element="_Ju9DQE4vEfGK0oCiVvr0Ww">
+          <children xmi:type="notation:Node" xmi:id="_JvG0Q04vEfGK0oCiVvr0Ww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_JvG0RE4vEfGK0oCiVvr0Ww" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JwJ9IE4vEfGK0oCiVvr0Ww" type="3005" element="_Ju9DQU4vEfGK0oCiVvr0Ww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JwJ9IU4vEfGK0oCiVvr0Ww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JwJ9Ik4vEfGK0oCiVvr0Ww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_JvG0QU4vEfGK0oCiVvr0Ww" fontName="Segoe UI" fontHeight="100"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JvG0Qk4vEfGK0oCiVvr0Ww" x="20" y="20" width="640" height="187"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Ju2Vkk4vEfGK0oCiVvr0Ww"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_JvGNME4vEfGK0oCiVvr0Ww" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_JvGNMU4vEfGK0oCiVvr0Ww"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Ju9DQE4vEfGK0oCiVvr0Ww" name="\n\n\n\n\n" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="oml:Vocabulary" href="src/oml/gic.ufrpe.br/cti/vocabulary/cti.oml#/"/>
+      <semanticElements xmi:type="oml:Vocabulary" href="src/oml/gic.ufrpe.br/cti/vocabulary/cti.oml#/"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Ju9DQU4vEfGK0oCiVvr0Ww" labelSize="100" showIcon="false" labelPosition="node" workspacePath="/io.opencaesar.rosetta.sirius.viewpoint/icons/empty.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@nodeMappings[name='Empty']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer/@nodeMappings[name='Empty']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Ju1HcU4vEfGK0oCiVvr0Ww"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']/@ownedRepresentations[name='Vocabulary%20Editor']/@defaultLayer"/>
+    <target xmi:type="oml:Vocabulary" href="src/oml/gic.ufrpe.br/cti/vocabulary/cti.oml#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

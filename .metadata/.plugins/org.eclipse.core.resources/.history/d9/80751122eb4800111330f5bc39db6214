@@ -1,0 +1,74 @@
+{ "head": {
+    "vars": [ "instituicao" , "media" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "instituicao": { "type": "literal" , "value": "Universidade Federal Rural de Pernambuco" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "Universidade Federal de Pernambuco" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "ASSOCIAÇÃO INSTITUTO DE TECNOLOGIA DE PERNAMBUCO" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FIOCRUZ ( CENTRO DE PESQUISA AGGEU MAGALHÃES )" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "INSTITUTO DE MEDICINA INTEGRAL PROFESSOR FERNANDO FIGUEIRA" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.75" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "CENTRO DE ESTUDOS E SISTEMAS AVANÇADOS DO RECIFE" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.5" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "CENTRO UNIVERSITÁRIO DOS GUARARAPES" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE BOA VIAGEM" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE DAMAS DA INSTRUÇÃO CRISTÃ" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE PERNAMBUCANA DE SAÚDE" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FUNDACAO JOAQUIM NABUCO" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "INSTITUTO FED. DE EDUC., CIÊNCIA E TECNOLOGIA DE PERNAMBUCO" } ,
+        "media": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "FACULDADE CERS" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE CATÓLICA DE PERNAMBUCO" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE DE PERNAMBUCO" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL DE PERNAMBUCO" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO" }
+      } ,
+      { 
+        "instituicao": { "type": "literal" , "value": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO" }
+      }
+    ]
+  }
+}

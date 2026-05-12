@@ -1,0 +1,12 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?ict_nome (COUNT(?ppg) AS ?total)
+WHERE {
+  ?ict a cti:ICT ;
+       cti:nm_entidade_ensino ?ict_nome .
+
+  ?ppg a cti:PPG ;
+       cti:sediado ?ict .
+}
+GROUP BY ?ict_nome
+ORDER BY DESC(?total)

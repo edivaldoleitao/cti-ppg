@@ -1,0 +1,25 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?programaNome ?ano (SUM(?citacoes) AS ?totalCitacoes) (COUNT(?producao) AS ?qtdProducoes)
+WHERE {
+  GRAPH <http://gic.ufrpe.br/cti/description/cti-pe-csv> {
+    
+    # 1. Pega os dados da produção
+    ?producao a cti:Producao_Cientifica ;
+              cti:an_base_producao ?ano ;
+              cti:nr_citacoes_publicacao ?citacoesStr .
+              
+    BIND(xsd:integer(?citacoesStr) AS ?citacoes)
+    
+    # 2. EXTRAÇÃO DE ID (Otimização: remove a necessidade de FILTER)
+    BIND(replace(str(?producao), "^.*Producao_([^_]+)_.*$", "$1") AS ?cdPrograma)
+    
+    # 3. Junção direta pelo ID extraído (Equi-Join)
+    ?programa a cti:PPG ;
+              cti:cd_programa_ies ?cdPrograma ;
+              cti:nm_programa_ies ?programaNome .
+  }
+}
+GROUP BY ?programaNome ?ano
+ORDER BY ?programaNome ?ano

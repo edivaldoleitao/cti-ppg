@@ -1,0 +1,14 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?programaNome ?anoConceito ?conceito
+WHERE {
+  GRAPH <http://gic.ufrpe.br/cti/description/cti-pe-csv> {
+    ?programa a cti:PPG ;
+              cti:nm_programa_ies ?programaNome ;
+              cti:avaliado ?avaliacao .
+              
+    ?avaliacao cti:cd_conceito_programa ?conceito ;
+               cti:an_base_conceito ?anoConceito .
+  }
+}
+ORDER BY ?programaNome ?anoConceito

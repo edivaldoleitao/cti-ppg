@@ -1,0 +1,32 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?programaNome ?ano (SUM(?citacoes) AS ?totalCitacoes) (COUNT(?producao) AS ?qtdProducoes)
+WHERE {
+  GRAPH <http://gic.ufrpe.br/cti/description/cti-pe-csv> {
+    
+    # Subconsulta 1: Programas
+    {
+      SELECT ?cdPrograma ?programaNome WHERE {
+        ?programa a cti:PPG ;
+                  cti:cd_programa_ies ?cdPrograma ;
+                  cti:nm_programa_ies ?programaNome .
+      }
+    }
+    
+    # Subconsulta 2: Produções (com ano e citações)
+    {
+      SELECT ?producao ?ano ?citacoes WHERE {
+        ?producao a cti:Producao_Cientifica ;
+                  cti:an_base_producao ?ano ;
+                  cti:nr_citacoes_publicacao ?citacoesStr .
+        BIND(xsd:integer(?citacoesStr) AS ?citacoes)
+      }
+    }
+    
+    # Vínculo lógico (O gargalo)
+    FILTER(contains(str(?producao), ?cdPrograma))
+  }
+}
+GROUP BY ?programaNome ?ano
+ORDER BY ?programaNome ?ano

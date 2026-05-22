@@ -1,0 +1,30 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?instituicaoDisplay ?programaNome ?ano (AVG(xsd:float(?citescore)) AS ?mediaCiteScore)
+WHERE {
+  GRAPH <http://gic.ufrpe.br/cti/description/cti-pe-csv> {
+    
+    # 1. Começamos pelas produções (onde os dados são mais numerosos)
+    ?producao a cti:Producao_Cientifica ;
+              cti:an_base_producao ?ano ;
+              cti:publicada ?veiculo .
+              
+    ?veiculo cti:nr_citescore_scopus ?citescore .
+
+    # 2. Extraímos o código do programa da URI da produção ANTES do join
+    BIND(REPLACE(STR(?producao), "^.*Producao_([^_]+)_.*$", "$1") AS ?cdPrograma)
+
+    # 3. Join direto com o Programa (usando o índice do cdPrograma extraído)
+    ?programa a cti:PPG ;
+              cti:cd_programa_ies ?cdPrograma ;
+              cti:nm_programa_ies ?programaNome ;
+              cti:sediado ?ict .
+
+    # 4. Captura simplificada do nome da IES
+    OPTIONAL { ?ict cti:nm_ies ?nomeIes }
+    BIND(COALESCE(?nomeIes, STR(?ict)) AS ?instituicaoDisplay)
+  }
+}
+GROUP BY ?instituicaoDisplay ?programaNome ?ano
+ORDER BY ?instituicaoDisplay ?programaNome ?ano

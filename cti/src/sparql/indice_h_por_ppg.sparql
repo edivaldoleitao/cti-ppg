@@ -1,30 +1,37 @@
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
-SELECT ?instituicaoDisplay ?programaNome ?ano (AVG(xsd:float(?citescore)) AS ?mediaCiteScore)
+SELECT ?nomePPG ?anoProducao ?nomeAutor ?naturezaPub ?citacoesPub ?doiPublicacao
 WHERE {
-  GRAPH <http://gic.ufrpe.br/cti/description/cti-pe-csv> {
-    
-    # 1. Começamos pelas produções (onde os dados são mais numerosos)
+    # 1. Pega a Produção Científica e seus atributos nativos
     ?producao a cti:Producao_Cientifica ;
-              cti:an_base_producao ?ano ;
-              cti:publicada ?veiculo .
-              
-    ?veiculo cti:nr_citescore_scopus ?citescore .
+              cti:an_base_producao ?anoProducao ;
+              cti:ds_natureza ?naturezaPub ;
+              cti:nr_citacoes_publicacao ?citacoesPub ;
+              cti:autoria ?autor .  # Sentido correto do relacionamento
 
-    # 2. Extraímos o código do programa da URI da produção ANTES do join
-    BIND(REPLACE(STR(?producao), "^.*Producao_([^_]+)_.*$", "$1") AS ?cdPrograma)
+    # 2. Conecta ao Autor para extrair o Nome textual
+    ?autor a cti:Autor ;
+           cti:nm_pessoa ?nomeAutor .
+    
+    # 3. Ponte para o PPG: Descobre a qual programa esse autor pertence
+    # Usamos UNION para buscar o nome tanto se ele for Docente quanto Discente
+    {
+        ?docente a cti:Docente ;
+                 cti:nm_pessoa ?nomeAutor ;
+                 cti:membro ?ppg .
+    }
+    UNION
+    {
+        ?discente a cti:Discente ;
+                  cti:nm_pessoa ?nomeAutor ;
+                  cti:vinculado ?ppg .
+    }
 
-    # 3. Join direto com o Programa (usando o índice do cdPrograma extraído)
-    ?programa a cti:PPG ;
-              cti:cd_programa_ies ?cdPrograma ;
-              cti:nm_programa_ies ?programaNome ;
-              cti:sediado ?ict .
-
-    # 4. Captura simplificada do nome da IES
-    OPTIONAL { ?ict cti:nm_ies ?nomeIes }
-    BIND(COALESCE(?nomeIes, STR(?ict)) AS ?instituicaoDisplay)
-  }
+    # 4. Extrai o nome textual do PPG encontrado
+    ?ppg cti:nm_programa_ies ?nomePPG .
+    
+    # 5. DOI opcional para garantir resiliência
+    OPTIONAL { ?producao cti:ds_doi ?doiPublicacao . }
 }
-GROUP BY ?instituicaoDisplay ?programaNome ?ano
-ORDER BY ?instituicaoDisplay ?programaNome ?ano
+ORDER BY DESC(?anoProducao) DESC(?citacoesPub)
+LIMIT 100

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuites name="http://gic.ufrpe.br/cti/vocabulary/bundle">
+<testsuites name="http://gic.ufrpe.br/cti/description/bundle">
   <testsuite name="Consistency">
-    <testcase name="http://gic.ufrpe.br/cti/vocabulary/bundle"/>
+    <testcase name="http://gic.ufrpe.br/cti/description/bundle"/>
   </testsuite>
   <testsuite name="Satisfiability">
     <testcase name="http://gic.ufrpe.br/cti/vocabulary/cti#Conceito_PPG"/>

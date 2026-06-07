@@ -35,7 +35,7 @@ buildscript {
  */
 ext {
     dataset = 'cti'
-    rootIri = 'http://gic.ufrpe.br/cti/vocabulary/bundle'
+    rootIri = 'http://gic.ufrpe.br/cti/description/bundle'
 }
 
 /*

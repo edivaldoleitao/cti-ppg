@@ -1,36 +1,16 @@
 PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
-SELECT ?nomePPG ?anoProducao ?nomeAutor ?naturezaPub ?citacoesPub ?doiPublicacao
+SELECT ?anoProducao ?nomeAutor ?naturezaPub ?citacoesPub ?doiPublicacao
 WHERE {
-    # 1. Pega a Produção Científica e seus atributos nativos
+    ?autor a cti:Autor ;
+           cti:nm_pessoa ?nomeAutor ;
+           cti:autoria ?producao .
+
     ?producao a cti:Producao_Cientifica ;
               cti:an_base_producao ?anoProducao ;
               cti:ds_natureza ?naturezaPub ;
-              cti:nr_citacoes_publicacao ?citacoesPub ;
-              cti:autoria ?autor .  # Sentido correto do relacionamento
+              cti:nr_citacoes_publicacao ?citacoesPub .
 
-    # 2. Conecta ao Autor para extrair o Nome textual
-    ?autor a cti:Autor ;
-           cti:nm_pessoa ?nomeAutor .
-    
-    # 3. Ponte para o PPG: Descobre a qual programa esse autor pertence
-    # Usamos UNION para buscar o nome tanto se ele for Docente quanto Discente
-    {
-        ?docente a cti:Docente ;
-                 cti:nm_pessoa ?nomeAutor ;
-                 cti:membro ?ppg .
-    }
-    UNION
-    {
-        ?discente a cti:Discente ;
-                  cti:nm_pessoa ?nomeAutor ;
-                  cti:vinculado ?ppg .
-    }
-
-    # 4. Extrai o nome textual do PPG encontrado
-    ?ppg cti:nm_programa_ies ?nomePPG .
-    
-    # 5. DOI opcional para garantir resiliência
     OPTIONAL { ?producao cti:ds_doi ?doiPublicacao . }
 }
 ORDER BY DESC(?anoProducao) DESC(?citacoesPub)

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Dashboard - Observatório CAPES Pernambuco</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Dashboard Analítico</h1>
+
+<a class="btn" href="index.html">
+Voltar ao Projeto
+</a>
+
+</header>
+
+<section>
+
+<div class="kpis">
+
+<div class="card">
+<h2 id="kpi_programas">-</h2>
+<p>PPGs</p>
+</div>
+
+<div class="card">
+<h2 id="kpi_ies">-</h2>
+<p>Instituições</p>
+</div>
+
+<div class="card">
+<h2 id="kpi_publicacoes">-</h2>
+<p>Produções</p>
+</div>
+
+<div class="card">
+<h2 id="kpi_periodicos">-</h2>
+<p>Periódicos</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="chart">
+<h3>Produção por Programa</h3>
+<div id="grafico_programa"></div>
+</div>
+
+<div class="chart">
+<h3>Produção por Instituição</h3>
+<div id="grafico_ies"></div>
+</div>
+
+<div class="chart">
+<h3>Evolução Temporal</h3>
+<div id="grafico_ano"></div>
+</div>
+
+<div class="chart">
+<h3>Top Programas por Produção</h3>
+<div id="grafico_top_programas"></div>
+</div>
+
+<div class="chart">
+<h3>Produção por Conceito CAPES</h3>
+<div id="grafico_conceito"></div>
+</div>
+
+<div class="chart">
+<h3>Idiomas das Publicações</h3>
+<div id="grafico_idioma"></div>
+</div>
+
+<div class="chart">
+<h3>Top Veículos de Publicação</h3>
+<div id="grafico_veiculo"></div>
+</div>
+
+<div class="chart">
+<h3>Top Autores</h3>
+<div id="grafico_autores"></div>
+</div>
+
+</section>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

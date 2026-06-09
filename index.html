@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Observatório CAPES Pernambuco</title>
+
+<!-- Importando uma fonte moderna do Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+  /* =========================================
+     Resets e Variáveis Globais
+     ========================================= */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+    line-height: 1.7;
+    background-color: #f8fafc;
+  }
+
+  /* =========================================
+     Navegação (Fixa no topo)
+     ========================================= */
+  nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 18px 20px;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s, transform 0.2s;
+  }
+
+  nav a:hover {
+    color: #0284c7;
+    transform: translateY(-2px);
+  }
+
+  /* =========================================
+     Hero Section (Cabeçalho com Destaque)
+     ========================================= */
+  .hero {
+    background: linear-gradient(135deg, #002244 0%, #0284c7 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Efeito de brilho de fundo no Hero */
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto 35px auto;
+    color: #e0f2fe;
+  }
+
+  .btn {
+    background-color: #f59e0b; /* Laranja contrastante */
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    text-transform: uppercase;
+  }
+
+  .btn:hover {
+    background-color: #d97706;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+  }
+
+  /* =========================================
+     Estrutura das Seções (Blocos de Cor)
+     ========================================= */
+  section {
+    padding: 80px 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Cores de fundo alternadas para quebrar o branco */
+  .bg-white { background-color: #ffffff; }
+  .bg-light { background-color: #f1f5f9; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; }
+  .bg-dark { background-color: #0f172a; color: #f8fafc; }
+
+  h2 {
+    color: #0f172a;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    display: inline-block;
+    position: relative;
+  }
+
+  h2::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background-color: #0284c7;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+  }
+
+  .bg-dark h2 { color: #ffffff; }
+  .bg-dark h2::after { background-color: #f59e0b; }
+  .bg-dark p { color: #cbd5e1; font-size: 1.1rem; }
+
+  .analise-texto {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: #475569;
+    border-left: 4px solid #0284c7;
+    padding-left: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+  }
+
+  /* =========================================
+     CSS GRID: Cards
+     ========================================= */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  /* Cards de Metodologia */
+  .card-metodologia {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #0284c7; /* Linha de destaque no topo */
+  }
+
+  .card-metodologia:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(2, 132, 199, 0.15);
+  }
+
+  .card-metodologia h3 {
+    color: #0284c7;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    font-weight: 800;
+  }
+
+  /* Cards de Infográficos (Maiores) */
+  .cards-infograficos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 40px;
+  }
+
+  .card-info {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-info h3 {
+    color: #0f172a;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .card-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    align-self: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .card-info p {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    border-left: 3px solid #f59e0b;
+  }
+
+  /* =========================================
+     Rodapé
+     ========================================= */
+  .referencias-list li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    list-style: none;
+  }
+
+  .referencias-list li::before {
+    content: "•";
+    color: #0284c7;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -4px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #001122;
+    color: #64748b;
+  }
+
+  @media (max-width: 768px) {
+    section { padding: 50px 20px; }
+    .hero h1 { font-size: 2.2rem; }
+    .cards-infograficos { grid-template-columns: 1fr; }
+  }
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#problema">Problema</a>
+<a href="#metodologia">Metodologia</a>
+<a href="#cop">A Comunidade</a>
+<a href="#infograficos">Análises</a>
+<a href="#referencias">Referências</a>
+<a href="dashboard.html">Dashboard</a>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
+<h1>Observatório CAPES Pernambuco</h1>
+<p>
+Uma iniciativa voltada à análise da produção científica, impacto acadêmico e indicadores da pós-graduação stricto sensu em Pernambuco, fundamentada nos princípios da Gestão do Conhecimento e das Comunidades de Prática.
+</p>
+<a href="dashboard.html" class="btn">Explorar Dashboard</a>
+</div>
+</header>
+
+<section id="sobre" class="bg-white">
+<div class="container">
+<h2>Sobre o Projeto</h2>
+<p>
+O Observatório CAPES Pernambuco busca transformar dados acadêmicos em conhecimento compartilhado, integrando informações da CAPES e indicadores bibliométricos da Scopus. A iniciativa permite analisar a produção científica dos Programas de Pós-Graduação (PPGs) do estado, identificando tendências, impactos e padrões de publicação.
+</p>
+</div>
+</section>
+
+<section id="problema" class="bg-light">
+<div class="container">
+<h2>Problema de Pesquisa</h2>
+<p>
+Apesar da disponibilidade crescente de dados sobre produção científica e avaliação da pós-graduação, a interpretação integrada desses indicadores ainda representa um desafio para pesquisadores e gestores. O projeto investiga como a combinação de indicadores bibliométricos e dados institucionais pode apoiar a geração de conhecimento sobre o desempenho da pós-graduação pernambucana.
+</p>
+</div>
+</section>
+
+<section id="metodologia" class="bg-white">
+<div class="container">
+<h2>Metodologia</h2>
+<div class="cards-grid">
+<div class="card-metodologia">
+<h3>CAPES</h3>
+<p>Coleta rigorosa dos dados provenientes da Plataforma Sucupira.</p>
+</div>
+<div class="card-metodologia">
+<h3>Scopus</h3>
+<p>Enriquecimento das bases com indicadores bibliométricos globais.</p>
+</div>
+<div class="card-metodologia">
+<h3>Ontologia</h3>
+<p>Representação semântica avançada utilizando o padrão CTI-PE.</p>
+</div>
+<div class="card-metodologia">
+<h3>SPARQL</h3>
+<p>Consulta, filtro e recuperação eficiente das informações estruturadas.</p>
+</div>
+<div class="card-metodologia">
+<h3>Análise</h3>
+<p>Construção de indicadores científicos estratégicos para tomada de decisão.</p>
+</div>
+<div class="card-metodologia">
+<h3>Visualização</h3>
+<p>Dashboard interativo projetado para a exploração clara dos dados.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="cop" class="bg-dark">
+<div class="container">
+<h2>Comunidade de Prática</h2>
+<p>
+A Comunidade de Prática constitui um ambiente colaborativo de alto impacto, voltado ao compartilhamento de experiências, interpretações e conhecimentos relacionados à produção científica e avaliação da pós-graduação. A proposta busca promover aprendizagem coletiva e construção de conhecimento embasada em evidências sólidas.
+</p>
+</div>
+</section>
+
+<section id="infograficos" class="bg-light">
+<div class="container">
+<h2>Análises e Infográficos</h2>
+<div class="analise-texto">
+  <p>Com base na coleta de dados institucionais, apresentamos o panorama da pesquisa no estado. A integração visual nos permite compreender não apenas o volume produtivo das instituições, mas também a distribuição de esforços por áreas do conhecimento e o ritmo temporal de publicações dos pesquisadores locais.</p>
+</div>
+
+<div class="cards-infograficos">
+<div class="card-info">
+  <h3>Produção por Programa</h3>
+  <img src="4130.png" alt="Infográfico de Produção por Programa">
+  <p><strong>Interpretação:</strong> O gráfico demonstra que as áreas de <strong>Engenharia Civil</strong> (+1.700 publicações) e <strong>Educação</strong> (~1.680) lideram isoladamente o volume de produção científica em Pernambuco. O top 5 é completado por Ciências Biológicas, Ciências da Computação e Direito.</p>
+</div>
+
+<div class="card-info">
+  <h3>Produção por Instituição</h3>
+  <img src="5842.png" alt="Infográfico de Produção por Instituição">
+  <p><strong>Interpretação:</strong> A análise confirma a <strong>UFPE</strong> como a grande âncora da pesquisa no estado, despontando com mais de 40.000 publicações. Segue-se a <strong>UFRPE</strong> (~15.000) e as universidades estaduais e comunitárias, como a <strong>UPE</strong> e a <strong>UNICAP</strong>.</p>
+</div>
+
+<div class="card-info">
+  <h3>Evolução Histórica</h3>
+  <img src="3706.png" alt="Infográfico de Evolução Temporal">
+  <p><strong>Interpretação:</strong> A série histórica revela um crescimento constante desde 2017, alcançando um <strong>pico produtivo em 2021</strong> (+10.000 publicações). Os dados preliminares de 2024 já sinalizam uma tendência de forte recuperação no ecossistema.</p>
+</div>
+
+<div class="card-info">
+  <h3>Impacto Científico</h3>
+  <p><em>(Aguardando indexação de dados: Este painel analisará métricas avançadas como índice H, citações médias por artigo e quartil de revistas.)</em></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="referencias" class="bg-white">
+<div class="container">
+<h2>Referências</h2>
+<ul class="referencias-list">
+<li>Produção científica em gestão de operações com temática voltada para a gestão do conhecimento</li>
+<li>Produção científica por unidade federativa brasileira em ciências agrárias na Scopus</li>
+<li>Tendências em organização da informação e do conhecimento</li>
+<li>Produção científica sobre bolsistas de produtividade do CNPq</li>
+<li>Comparative Analysis of Web of Science, Scopus and Dimensions</li>
+<li>Google Scholar vs Web of Science vs Scopus</li>
+</ul>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>Observatório CAPES Pernambuco &copy; 2026 - Desenvolvido para Gestão do Conhecimento</p>
+</div>
+</footer>
+
+</body>
+</html>

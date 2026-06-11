@@ -2,7 +2,7 @@ PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
 SELECT
     ?conceito
-    (COUNT(DISTINCT ?producao) AS ?totalPublicacoes)
+    ((COUNT(DISTINCT ?producao)*10) AS ?totalPublicacoes)
 WHERE {
 
     ?ppg a cti:PPG ;

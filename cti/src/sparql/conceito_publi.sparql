@@ -3,7 +3,7 @@ PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
 SELECT ?ppg_nome 
        ?conceito 
-       ((COUNT(DISTINCT ?producao) * 10) AS ?total_ponderado) 
+       ((COUNT(DISTINCT ?producao) * 10) AS ?total_publi) 
        (AVG(COALESCE(?citacoes, 0)) AS ?media_citacoes)
 WHERE {
   # 1. FUNIL: Isola a base de dados

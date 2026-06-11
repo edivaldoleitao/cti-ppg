@@ -7,7 +7,7 @@ description bundle <http://gic.ufrpe.br/cti/description/bundle#> as ^bundle {
 	uses <http://gic.ufrpe.br/cti/vocabulary/cti#> 
 
 
-	includes <http://gic.ufrpe.br/cti/description/cti_pe_amostra#>
+	includes <http://gic.ufrpe.br/cti/description/cti_pe_consolidado#>
 
 
 }

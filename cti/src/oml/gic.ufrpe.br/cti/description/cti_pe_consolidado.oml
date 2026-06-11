@@ -1,4 +1,4 @@
-description <http://gic.ufrpe.br/cti/description/cti_pe_amostra#> as cti_pe_amostra {
+description <http://gic.ufrpe.br/cti/description/cti_pe_consolidado#> as cti_pe_consolidado {
 
     uses <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti
 

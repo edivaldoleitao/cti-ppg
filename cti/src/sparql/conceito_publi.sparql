@@ -1,6 +1,10 @@
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
+# Objetivo: Esta consulta analisa o desempenho qualitativo e quantitativo dos Programas de Pós-Graduação (PPGs) 
+# sediados em Pernambuco (PE). Ela correlaciona o conceito CAPES com a produtividade 
+# e o impacto científico (média de citações), fornecendo uma visão geral da influência acadêmica dos programas.
+
 SELECT ?ppg_nome 
        ?conceito 
        ((COUNT(DISTINCT ?producao) * 10) AS ?total_publi) 

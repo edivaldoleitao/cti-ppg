@@ -1,5 +1,9 @@
 PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
+# Objetivo: Esta consulta quantifica a produção científica 
+# por Instituição de Ciência e Tecnologia (ICT) ao longo dos anos, 
+# permitindo identificar tendências de produtividade anual entre 2017 e 2024.
+
 SELECT ?nome_ict ?ano ((COUNT(DISTINCT ?producao)*10) AS ?total_publicacoes)
 WHERE {
   # 1. FUNIL OTIMIZADO: Cria uma tabela em memória apenas com Instituições e Nomes

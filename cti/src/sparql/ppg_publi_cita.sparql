@@ -1,0 +1,28 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT
+    ?conceito
+    (COUNT(DISTINCT ?producao) AS ?totalPublicacoes)
+WHERE {
+
+    ?ppg a cti:PPG ;
+         cti:sediado ?ict ;
+         cti:avaliado ?conceitoObj .
+
+    ?ict cti:sg_uf "PE" .
+
+    ?conceitoObj cti:cd_conceito_programa ?conceito .
+
+    ?discente cti:vinculado ?ppg ;
+              cti:nm_pessoa ?nomeAutor .
+
+    ?autor a cti:Autor ;
+           cti:nm_pessoa ?nomeAutor ;
+           cti:autoria ?producao .
+
+    ?producao cti:an_base_producao ?ano .
+
+    FILTER(?ano >= 2017 && ?ano <= 2024)
+}
+GROUP BY ?conceito
+ORDER BY ?conceito

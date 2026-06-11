@@ -11,6 +11,8 @@
     <semanticResources>build/oml/www.w3.org/2003/11/swrlb.oml</semanticResources>
     <semanticResources>src/oml/gic.ufrpe.br/cti/vocabulary/fatia_1.oml</semanticResources>
     <semanticResources>src/oml/gic.ufrpe.br/cti/description/bundle.oml</semanticResources>
+    <semanticResources>src/oml/gic.ufrpe.br/cti/description/fatia_1.oml</semanticResources>
+    <semanticResources>src/oml/gic.ufrpe.br/cti/vocabulary/bundle.oml</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_JUCB0E4vEfGK0oCiVvr0Ww">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/io.opencaesar.rosetta.sirius.viewpoint/description/oml.odesign#//@ownedViewpoints[name='Vocabularies']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Ju1ugE4vEfGK0oCiVvr0Ww" name="Cti Editor" repPath="#_Ju1HcE4vEfGK0oCiVvr0Ww" changeId="1778610000557">

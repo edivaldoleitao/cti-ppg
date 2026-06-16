@@ -275,4 +275,10 @@ vocabulary <http://gic.ufrpe.br/cti/vocabulary/cti#> as cti {
         from Discente
         to Docente
     ]
+    
+    relation vinculada_ao_ppg [
+    from Producao_Cientifica
+    to PPG
+]
+
 }

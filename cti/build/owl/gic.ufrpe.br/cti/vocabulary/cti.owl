@@ -138,6 +138,17 @@
     
 
 
+    <!-- http://gic.ufrpe.br/cti/vocabulary/cti#vinculada_ao_ppg -->
+
+
+    <owl:ObjectProperty rdf:about="http://gic.ufrpe.br/cti/vocabulary/cti#vinculada_ao_ppg">
+        <rdfs:domain rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#Producao_Cientifica"/>
+        <rdfs:range rdf:resource="http://gic.ufrpe.br/cti/vocabulary/cti#PPG"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://gic.ufrpe.br/cti/vocabulary/cti#vinculado -->
 
 

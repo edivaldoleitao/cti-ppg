@@ -1,34 +1,19 @@
-# Objetivo: Esta consulta calcula o volume anual de produção científica 
-# agrupada por Instituição de Ciência e Tecnologia (ICT), permitindo visualizar 
-# a evolução da produtividade dessas instituições no período de 2017 a 2024.
-
 PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
 
-SELECT ?nome_ict ?ano ((COUNT(DISTINCT ?producao)*10) AS ?total_publicacoes)
+SELECT 
+    ?cdPPG 
+    ?nomePPG 
+    ?ano 
+    ((COUNT(DISTINCT ?pub)*10) AS ?totalProducoes)
 WHERE {
-  # 1. FUNIL OTIMIZADO: Cria uma tabela em memória apenas com Instituições e Nomes
-  {
-    SELECT DISTINCT ?nome_ict ?nome 
-    WHERE {
-      ?ict cti:nm_entidade_ensino ?nome_ict .
-      ?ppg cti:sediado ?ict .
-      
-      { ?pessoa cti:vinculado ?ppg } 
-      UNION 
-      { ?pessoa cti:membro ?ppg }
-      
-      ?pessoa cti:nm_pessoa ?nome .
-    }
-  }
-  
-  # 2. Cruza apenas a lista filtrada com Autores e Produções
-  ?autor cti:nm_pessoa ?nome ;
-         cti:autoria ?producao .
-         
-  ?producao cti:an_base_producao ?ano .
-  
-  # Filtro temporal para restringir o processamento
-  FILTER(?ano >= 2017 && ?ano <= 2024)
+    ?pub a cti:Producao_Cientifica ;
+         cti:vinculada_ao_ppg ?ppg ;
+         cti:an_base_producao ?ano .
+
+    ?ppg cti:cd_programa_ies ?cdPPG ;
+         cti:nm_programa_ies ?nomePPG .
+
+    FILTER(?ano >= 2017 && ?ano <= 2024)
 }
-GROUP BY ?nome_ict ?ano
-ORDER BY ?nome_ict ?ano
+GROUP BY ?cdPPG ?nomePPG ?ano
+ORDER BY ?nomePPG ?ano

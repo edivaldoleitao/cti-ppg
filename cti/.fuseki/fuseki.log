@@ -3,60 +3,15 @@ SLF4J: Found binding in [jar:file:/C:/Users/UsuarioPc/.m2/repository/org/apache/
 SLF4J: Found binding in [jar:file:/C:/Users/UsuarioPc/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
-[2026-06-15 20:32:06] Server     INFO  Apache Jena Fuseki 4.6.1
-[2026-06-15 20:32:06] Server     INFO  Incoming connections limited to localhost
-[2026-06-15 20:32:11] Config     INFO  FUSEKI_HOME=C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\.
-[2026-06-15 20:32:11] Config     INFO  FUSEKI_BASE=C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\run
-[2026-06-15 20:32:11] Config     INFO  Shiro file: file://C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\run\shiro.ini
-[2026-06-15 20:32:12] Server     INFO  Path = /cti
-[2026-06-15 20:32:12] Server     INFO  System
-[2026-06-15 20:32:12] Server     INFO    Memory: 3,9 GiB
-[2026-06-15 20:32:12] Server     INFO    Java:   21.0.8
-[2026-06-15 20:32:12] Server     INFO    OS:     Windows 11 10.0 amd64
-[2026-06-15 20:32:12] Server     INFO    PID:    2200
-[2026-06-15 20:32:12] Server     INFO  Started 2026/06/15 20:32:12 BRT on port 3030
-[2026-06-15 20:33:04] Fuseki     INFO  [3] GET http://localhost:3030/cti/sparql?query=select%20?g%20%7B%20graph%20?g%20%7B%20?o%20a%20%3Chttp://www.w3.org/2002/07/owl%23Ontology%3E%20%7D%20%7D
-[2026-06-15 20:33:04] Fuseki     INFO  [3] Query = select ?g { graph ?g { ?o a <http://www.w3.org/2002/07/owl#Ontology> } }
-[2026-06-15 20:33:04] Fuseki     INFO  [3] 200 OK (22 ms)
-[2026-06-15 20:33:04] Fuseki     INFO  [4] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/vocabulary/cti
-[2026-06-15 20:33:04] Fuseki     INFO  [5] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/properties
-[2026-06-15 20:33:04] Fuseki     INFO  [7] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/classes
-[2026-06-15 20:33:04] Fuseki     INFO  [6] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/cti_pe_consolidado
-[2026-06-15 20:33:04] Fuseki     INFO  [8] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/individuals
-[2026-06-15 20:33:04] Fuseki     INFO  [9] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle
-[2026-06-15 20:33:04] Fuseki     INFO  [4] Body: Content-Length=24492, Content-Type=application/rdf+xml, Charset=null => RDF/XML : Count=195 Triples=195 Quads=0
-[2026-06-15 20:33:04] Fuseki     INFO  [4] 201 Created (98 ms)
-[2026-06-15 20:33:04] Fuseki     INFO  [5] Body: Content-Length=11748, Content-Type=text/turtle, Charset=null => Turtle : Count=125 Triples=125 Quads=0
-[2026-06-15 20:33:04] Fuseki     INFO  [5] 201 Created (133 ms)
-[2026-06-15 20:33:04] Fuseki     INFO  [7] Body: Content-Length=7657, Content-Type=text/turtle, Charset=null => Turtle : Count=85 Triples=85 Quads=0
-[2026-06-15 20:33:04] Fuseki     INFO  [7] 201 Created (151 ms)
-[2026-06-15 20:33:09] Fuseki     INFO  [6] Body: Content-Length=36115446, Content-Type=application/rdf+xml, Charset=null => RDF/XML : Count=297631 Triples=297631 Quads=0
-[2026-06-15 20:34:54] Fuseki     INFO  [6] 201 Created (109,803 s)
-[2026-06-15 20:34:58] Fuseki     INFO  [8] Body: Content-Length=31669009, Content-Type=text/turtle, Charset=null => Turtle : Count=313596 Triples=313596 Quads=0
-[2026-06-15 20:36:00] Fuseki     INFO  [8] 201 Created (175,891 s)
-[2026-06-15 20:36:00] Fuseki     INFO  [9] Body: Content-Length=1106, Content-Type=application/rdf+xml, Charset=null => RDF/XML : Count=6 Triples=6 Quads=0
-[2026-06-15 20:36:00] Fuseki     INFO  [9] 201 Created (175,897 s)
-[2026-06-15 20:36:00] Fuseki     INFO  [11] GET http://localhost:3030/cti/sparql?query=PREFIX%20%20xsd:%20%20%3Chttp://www.w3.org/2001/XMLSchema%23%3E%0APREFIX%20%20cti:%20%20%3Chttp://gic.ufrpe.br/cti/vocabulary/cti%23%3E%0A%0ASELECT%20%20?cdPPG%20?nomePPG%20?ano%20%28COUNT%28DISTINCT%20?pub%29%20AS%20?totalProducoes%29%20%28AVG%28xsd:decimal%28?citacoes%29%29%20AS%20?mediaCitacoes%29%0AWHERE%0A%20%20%7B%20?pub%20%20a%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:Producao_Cientifica%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:vinculada_ao_ppg%20%20?ppg%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:an_base_producao%20%20?ano%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:nr_citacoes_publicacao%20%20?citacoes%20.%0A%20%20%20%20?ppg%20%20cti:cd_programa_ies%20%20%20?cdPPG%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:nm_programa_ies%20%20%20?nomePPG%0A%20%20%20%20FILTER%20%28%20%28%20?ano%20%3E%3D%202017%20%29%20%26%26%20%28%20?ano%20%3C%3D%202024%20%29%20%29%0A%20%20%7D%0AGROUP%20BY%20?cdPPG%20?nomePPG%20?ano%0AORDER%20BY%20?nomePPG%20?ano%0A
-[2026-06-15 20:36:00] Fuseki     INFO  [10] GET http://localhost:3030/cti/sparql?query=PREFIX%20%20cti:%20%20%3Chttp://gic.ufrpe.br/cti/vocabulary/cti%23%3E%0A%0ASELECT%20%20?cdPPG%20?nomePPG%20?ano%20%28COUNT%28DISTINCT%20?pub%29%20AS%20?totalProducoes%29%0AWHERE%0A%20%20%7B%20?pub%20%20a%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:Producao_Cientifica%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:vinculada_ao_ppg%20%20?ppg%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:an_base_producao%20%20?ano%20.%0A%20%20%20%20?ppg%20%20cti:cd_programa_ies%20%20%20?cdPPG%20%3B%0A%20%20%20%20%20%20%20%20%20%20cti:nm_programa_ies%20%20%20?nomePPG%0A%20%20%20%20FILTER%20%28%20%28%20?ano%20%3E%3D%202017%20%29%20%26%26%20%28%20?ano%20%3C%3D%202024%20%29%20%29%0A%20%20%7D%0AGROUP%20BY%20?cdPPG%20?nomePPG%20?ano%0AORDER%20BY%20?nomePPG%20?ano%0A
-[2026-06-15 20:36:00] Fuseki     INFO  [11] Query = PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#> PREFIX  cti:  <http://gic.ufrpe.br/cti/vocabulary/cti#>  SELECT  ?cdPPG ?nomePPG ?ano (COUNT(DISTINCT ?pub) AS ?totalProducoes) (AVG(xsd:decimal(?citacoes)) AS ?mediaCitacoes) WHERE   { ?pub  a                     cti:Producao_Cientifica ;           cti:vinculada_ao_ppg  ?ppg ;           cti:an_base_producao  ?ano ;           cti:nr_citacoes_publicacao  ?citacoes .     ?ppg  cti:cd_programa_ies   ?cdPPG ;           cti:nm_programa_ies   ?nomePPG     FILTER ( ( ?ano >= 2017 ) && ( ?ano <= 2024 ) )   } GROUP BY ?cdPPG ?nomePPG ?ano ORDER BY ?nomePPG ?ano 
-[2026-06-15 20:36:00] Fuseki     INFO  [12] GET http://localhost:3030/cti/sparql?query=PREFIX%20%20cti:%20%20%3Chttp://gic.ufrpe.br/cti/vocabulary/cti%23%3E%0A%0ASELECT%20%20?cdPPG%20?nomePPG%20?ano%20?conceito%0AWHERE%0A%20%20%7B%20?ppg%20%20%20%20%20%20a%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:PPG%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:cd_programa_ies%20%20%20?cdPPG%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:nm_programa_ies%20%20%20?nomePPG%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:avaliado%20%20%20%20%20%20%20%20%20%20?avaliacao%20.%0A%20%20%20%20?avaliacao%20%20cti:an_base_conceito%20%20?ano%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20cti:cd_conceito_programa%20%20?conceito%0A%20%20%20%20FILTER%20%28%20%28%20?ano%20%3E%3D%202017%20%29%20%26%26%20%28%20?ano%20%3C%3D%202024%20%29%20%29%0A%20%20%7D%0AORDER%20BY%20?nomePPG%20?ano%0A
-[2026-06-15 20:36:00] Fuseki     INFO  [12] Query = PREFIX  cti:  <http://gic.ufrpe.br/cti/vocabulary/cti#>  SELECT  ?cdPPG ?nomePPG ?ano ?conceito WHERE   { ?ppg      a                     cti:PPG ;               cti:cd_programa_ies   ?cdPPG ;               cti:nm_programa_ies   ?nomePPG ;               cti:avaliado          ?avaliacao .     ?avaliacao  cti:an_base_conceito  ?ano ;               cti:cd_conceito_programa  ?conceito     FILTER ( ( ?ano >= 2017 ) && ( ?ano <= 2024 ) )   } ORDER BY ?nomePPG ?ano 
-[2026-06-15 20:36:00] Fuseki     INFO  [10] Query = PREFIX  cti:  <http://gic.ufrpe.br/cti/vocabulary/cti#>  SELECT  ?cdPPG ?nomePPG ?ano (COUNT(DISTINCT ?pub) AS ?totalProducoes) WHERE   { ?pub  a                     cti:Producao_Cientifica ;           cti:vinculada_ao_ppg  ?ppg ;           cti:an_base_producao  ?ano .     ?ppg  cti:cd_programa_ies   ?cdPPG ;           cti:nm_programa_ies   ?nomePPG     FILTER ( ( ?ano >= 2017 ) && ( ?ano <= 2024 ) )   } GROUP BY ?cdPPG ?nomePPG ?ano ORDER BY ?nomePPG ?ano 
-[2026-06-15 20:36:00] Fuseki     INFO  [12] 200 OK (360 ms)
-[2026-06-15 20:36:01] Fuseki     INFO  [10] 503 Service Unavailable (1,020 s)
-[2026-06-15 20:36:01] Fuseki     INFO  [11] 503 Service Unavailable (1,038 s)
-[2026-06-15 20:37:01] Fuseki     INFO  [15] POST http://localhost:3030/cti/sparql
-[2026-06-15 20:37:01] Fuseki     INFO  [15] Query = PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>  SELECT * WHERE {     ?pub cti:vinculada_ao_ppg ?ppg } LIMIT 20
-[2026-06-15 20:37:01] Fuseki     INFO  [15] 200 OK (10 ms)
-[2026-06-15 20:39:34] Fuseki     INFO  [16] GET http://localhost:3030/cti/sparql?query=select%20?g%20%7B%20graph%20?g%20%7B%20?o%20a%20%3Chttp://www.w3.org/2002/07/owl%23Ontology%3E%20%7D%20%7D
-[2026-06-15 20:39:34] Fuseki     INFO  [16] Query = select ?g { graph ?g { ?o a <http://www.w3.org/2002/07/owl#Ontology> } }
-[2026-06-15 20:39:34] Fuseki     INFO  [16] 200 OK (3 ms)
-[2026-06-15 20:39:34] Fuseki     INFO  [17] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/classes
-[2026-06-15 20:39:34] Fuseki     INFO  [18] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/individuals
-[2026-06-15 20:39:34] Fuseki     INFO  [19] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/cti_pe_consolidado
-[2026-06-15 20:39:34] Fuseki     INFO  [20] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/vocabulary/cti
-[2026-06-15 20:39:34] Fuseki     INFO  [21] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle
-[2026-06-15 20:39:34] Fuseki     INFO  [22] PUT http://localhost:3030/cti?graph=http://gic.ufrpe.br/cti/description/bundle/properties
-[2026-06-15 20:39:34] Fuseki     INFO  [17] Body: Content-Length=7657, Content-Type=text/turtle, Charset=null => Turtle : Count=85 Triples=85 Quads=0
-[2026-06-15 20:39:34] Fuseki     INFO  [17] 200 OK (14 ms)
-[2026-06-15 20:39:40] Fuseki     INFO  [18] Body: Content-Length=31669009, Content-Type=text/turtle, Charset=null => Turtle : Count=313596 Triples=313596 Quads=0
+[2026-06-16 16:54:45] Server     INFO  Apache Jena Fuseki 4.6.1
+[2026-06-16 16:54:45] Server     INFO  Incoming connections limited to localhost
+[2026-06-16 16:54:52] Config     INFO  FUSEKI_HOME=C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\.
+[2026-06-16 16:54:52] Config     INFO  FUSEKI_BASE=C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\run
+[2026-06-16 16:54:52] Config     INFO  Shiro file: file://C:\Users\UsuarioPc\Documents\rosetta-2.13.1-win32.win32.x86_64\Rosetta\workspace\cti-ppg\cti\.fuseki\run\shiro.ini
+[2026-06-16 16:54:53] Server     INFO  Path = /cti
+[2026-06-16 16:54:53] Server     INFO  System
+[2026-06-16 16:54:53] Server     INFO    Memory: 3,9 GiB
+[2026-06-16 16:54:53] Server     INFO    Java:   21.0.8
+[2026-06-16 16:54:53] Server     INFO    OS:     Windows 11 10.0 amd64
+[2026-06-16 16:54:53] Server     INFO    PID:    5988
+[2026-06-16 16:54:54] Server     INFO  Started 2026/06/16 16:54:54 BRT on port 3030

@@ -1,0 +1,44 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+    ?cdPPG
+    ?nomePPG
+    ?totalProducoes
+    ?mediaConceito
+WHERE {
+
+    {
+        SELECT
+            ?ppg
+            (COUNT(DISTINCT ?pub) AS ?totalProducoes)
+        WHERE {
+            ?pub a cti:Producao_Cientifica ;
+                 cti:vinculada_ao_ppg ?ppg ;
+                 cti:an_base_producao ?ano .
+
+            FILTER(?ano >= 2017 && ?ano <= 2024)
+        }
+        GROUP BY ?ppg
+    }
+
+    {
+        SELECT
+            ?ppg
+            (AVG(xsd:decimal(?conceito)) AS ?mediaConceito)
+        WHERE {
+            ?ppg cti:avaliado ?avaliacao .
+
+            ?avaliacao
+                cti:an_base_conceito ?ano ;
+                cti:cd_conceito_programa ?conceito .
+
+            FILTER(?ano >= 2017 && ?ano <= 2024)
+        }
+        GROUP BY ?ppg
+    }
+
+    ?ppg cti:cd_programa_ies ?cdPPG ;
+         cti:nm_programa_ies ?nomePPG .
+}
+ORDER BY DESC(?mediaConceito)

@@ -1,0 +1,818 @@
+{ "head": {
+    "vars": [ "cdPPG" , "nomePPG" , "totalProducoes" , "mediaConceito" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019002P3" } ,
+        "nomePPG": { "type": "literal" , "value": "FÍSICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "89" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "7.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019004P6" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS DA COMPUTAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "108" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "7.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019021P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA DE PRODUÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "77" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "7.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019031P3" } ,
+        "nomePPG": { "type": "literal" , "value": "SERVIÇO SOCIAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "7" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019033P6" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA POLÍTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019036P5" } ,
+        "nomePPG": { "type": "literal" , "value": "QUÍMICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "149" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019038P8" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOLOGIA VEGETAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "165" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019041P9" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOLOGIA ANIMAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "90" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011017P3" } ,
+        "nomePPG": { "type": "literal" , "value": "ENTOMOLOGIA AGRÍCOLA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "42" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011018P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA AGRÍCOLA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "97" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "6.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019001P7" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "57" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019003P0" } ,
+        "nomePPG": { "type": "literal" , "value": "MATEMÁTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "20" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019017P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ECONOMIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "29" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019019P3" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA ELÉTRICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "43" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019020P1" } ,
+        "nomePPG": { "type": "literal" , "value": "TECNOLOGIAS ENERGÉTICAS NUCLEARES" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "96" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019024P7" } ,
+        "nomePPG": { "type": "literal" , "value": "MEDICINA TROPICAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "134" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019028P2" } ,
+        "nomePPG": { "type": "literal" , "value": "NUTRIÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "98" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019030P7" } ,
+        "nomePPG": { "type": "literal" , "value": "DESENVOLVIMENTO URBANO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "34" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019034P2" } ,
+        "nomePPG": { "type": "literal" , "value": "OCEANOGRAFIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "76" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019040P2" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "131" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019045P4" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS BIOLÓGICAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "373" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019048P3" } ,
+        "nomePPG": { "type": "literal" , "value": "ESTATÍSTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "52" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019053P7" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA DE MATERIAIS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "134" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019054P3" } ,
+        "nomePPG": { "type": "literal" , "value": "COMUNICAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019059P5" } ,
+        "nomePPG": { "type": "literal" , "value": "ARQUEOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "23" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019060P3" } ,
+        "nomePPG": { "type": "literal" , "value": "DESENVOLVIMENTO E MEIO AMBIENTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "124" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019073P8" } ,
+        "nomePPG": { "type": "literal" , "value": "INOVAÇÃO TERAPÊUTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "299" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019087P9" } ,
+        "nomePPG": { "type": "literal" , "value": "GESTÃO E ECONOMIA DA SAÚDE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "93" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011002P6" } ,
+        "nomePPG": { "type": "literal" , "value": "FITOPATOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "41" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011003P2" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA DO SOLO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "78" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011005P5" } ,
+        "nomePPG": { "type": "literal" , "value": "MEDICINA VETERINÁRIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "92" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011009P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011011P5" } ,
+        "nomePPG": { "type": "literal" , "value": "RECURSOS PESQUEIROS E AQUICULTURA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "64" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011022P7" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOCIÊNCIA ANIMAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "277" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011033P9" } ,
+        "nomePPG": { "type": "literal" , "value": "ETNOBIOLOGIA E CONSERVAÇÃO DA NATUREZA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "119" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011036P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA AMBIENTAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "128" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "5.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019018P7" } ,
+        "nomePPG": { "type": "literal" , "value": "PSICOLOGIA COGNITIVA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "38" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.875" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019012P9" } ,
+        "nomePPG": { "type": "literal" , "value": "SOCIOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "26" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.25" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019013P5" } ,
+        "nomePPG": { "type": "literal" , "value": "ANTROPOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.125" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019016P4" } ,
+        "nomePPG": { "type": "literal" , "value": "GEOGRAFIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "49" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.125" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019007P5" } ,
+        "nomePPG": { "type": "literal" , "value": "GEOCIÊNCIAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "37" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019009P8" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOQUÍMICA E FISIOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "288" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019010P6" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOLOGIA DE FUNGOS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "97" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019015P8" } ,
+        "nomePPG": { "type": "literal" , "value": "HISTÓRIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019023P0" } ,
+        "nomePPG": { "type": "literal" , "value": "CIRURGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "30" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019027P6" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS FARMACÊUTICAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "143" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019029P9" } ,
+        "nomePPG": { "type": "literal" , "value": "DIREITO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019032P0" } ,
+        "nomePPG": { "type": "literal" , "value": "LETRAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019037P1" } ,
+        "nomePPG": { "type": "literal" , "value": "GENÉTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "125" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019043P1" } ,
+        "nomePPG": { "type": "literal" , "value": "NEUROPSIQUIATRIA E CIÊNCIAS DO COMPORTAMENTO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "99" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019044P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA QUÍMICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "97" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019046P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ADMINISTRAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "77" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019057P2" } ,
+        "nomePPG": { "type": "literal" , "value": "DESIGN" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019058P9" } ,
+        "nomePPG": { "type": "literal" , "value": "ODONTOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "79" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019062P6" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS DA COMPUTAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "77" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019065P5" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA DE PRODUÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "59" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019066P1" } ,
+        "nomePPG": { "type": "literal" , "value": "PSICOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "12" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019068P4" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS CONTÁBEIS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "24" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019069P0" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO MATEMÁTICA E TECNOLÓGICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019077P3" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA DA INFORMAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019079P6" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOLOGIA APLICADA À SAÚDE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "254" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019081P0" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOTECNOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "120" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019082P7" } ,
+        "nomePPG": { "type": "literal" , "value": "ENFERMAGEM" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "39" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019083P3" } ,
+        "nomePPG": { "type": "literal" , "value": "ECONOMIA - CAMPUS AGRESTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019084P0" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO CONTEMPORÂNEA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "50" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011001P0" } ,
+        "nomePPG": { "type": "literal" , "value": "BOTÂNICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "162" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011006P1" } ,
+        "nomePPG": { "type": "literal" , "value": "ZOOTECNIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "49" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011010P9" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOMETRIA E ESTATÍSTICA APLICADA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "141" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011012P1" } ,
+        "nomePPG": { "type": "literal" , "value": "ENSINO DAS CIÊNCIAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "56" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011013P8" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS FLORESTAIS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "38" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011015P0" } ,
+        "nomePPG": { "type": "literal" , "value": "AGRONOMIA ( MELHORAMENTO GENÉTICO DE PLANTAS)" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011019P6" } ,
+        "nomePPG": { "type": "literal" , "value": "HISTÓRIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "13" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011020P4" } ,
+        "nomePPG": { "type": "literal" , "value": "QUIMICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "52" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011025P6" } ,
+        "nomePPG": { "type": "literal" , "value": "SANIDADE E REPRODUÇÃO DE RUMINANTES" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "35" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011026P2" } ,
+        "nomePPG": { "type": "literal" , "value": "ECOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011028P5" } ,
+        "nomePPG": { "type": "literal" , "value": "PRODUÇÃO AGRÍCOLA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "82" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011030P0" } ,
+        "nomePPG": { "type": "literal" , "value": "PRODUÇÃO VEGETAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "89" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011072P4" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS AMBIENTAIS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "32" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018006P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ODONTOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "88" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018008P0" } ,
+        "nomePPG": { "type": "literal" , "value": "HEBIATRIA - DETERMINANTES DE SAÚDE NA ADOLESCENCIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "75" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018011P1" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA DA COMPUTAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "76" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018013P4" } ,
+        "nomePPG": { "type": "literal" , "value": "BIOLOGIA CELULAR E MOLECULAR APLICADA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "204" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018014P0" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO FÍSICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "109" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018015P7" } ,
+        "nomePPG": { "type": "literal" , "value": "ENFERMAGEM - FESP-UPE " } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "56" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018019P2" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "16" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018074P3" } ,
+        "nomePPG": { "type": "literal" , "value": "REABILITAÇÃO E DESEMPENHO FUNCIONAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "44" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "4.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019026P0" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE DA CRIANÇA E DO ADOLESCENTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "68" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019050P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA MECÂNICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "52" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019052P0" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS GEODÉSICAS E TECNOLOGIAS DA GEOINFORMAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "41" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019055P0" } ,
+        "nomePPG": { "type": "literal" , "value": "GESTÃO PÚBLICA PARA O DESENVOLVIMENTO DO NORDESTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "28" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019072P1" } ,
+        "nomePPG": { "type": "literal" , "value": "FISIOTERAPIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "76" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019074P4" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE COLETIVA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "61" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019075P0" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE HUMANA E MEIO AMBIENTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019078P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ADMINISTRAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019080P4" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA CIVIL E AMBIENTAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "72" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019085P6" } ,
+        "nomePPG": { "type": "literal" , "value": "ERGONOMIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019088P5" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA BIOMÉDICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "25" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019089P1" } ,
+        "nomePPG": { "type": "literal" , "value": "DIREITOS HUMANOS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "30" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019090P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA DE PRODUÇÃO - CENTRO ACADÊMICO DO AGRESTE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "38" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019091P6" } ,
+        "nomePPG": { "type": "literal" , "value": "POLÍTICAS PÚBLICAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "3" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019092P2" } ,
+        "nomePPG": { "type": "literal" , "value": "GERONTOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "57" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019093P9" } ,
+        "nomePPG": { "type": "literal" , "value": "NUTRIÇÃO, ATIVIDADE FÍSICA E PLASTICIDADE FENOTÍPICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "53" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019095P1" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO EM CIÊNCIAS E MATEMÁTICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "19" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019097P4" } ,
+        "nomePPG": { "type": "literal" , "value": "MORFOTECNOLOGIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "63" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019156P0" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO FÍSICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "84" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019157P7" } ,
+        "nomePPG": { "type": "literal" , "value": "MÚSICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "4" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019171P0" } ,
+        "nomePPG": { "type": "literal" , "value": "HOTELARIA E TURISMO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "28" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019172P6" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE DA COMUNICAÇÃO HUMANA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "26" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019173P2" } ,
+        "nomePPG": { "type": "literal" , "value": "GESTÃO, INOVAÇÃO E CONSUMO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "29" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019174P9" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE TRANSLACIONAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "41" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011014P4" } ,
+        "nomePPG": { "type": "literal" , "value": "ADMINISTRAÇÃO E DESENVOLVIMENTO RURAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011021P0" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA E TECNOLOGIA DE ALIMENTOS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "22" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011024P0" } ,
+        "nomePPG": { "type": "literal" , "value": "FÍSICA APLICADA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "33" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011027P9" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA ANIMAL E PASTAGENS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "27" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011029P1" } ,
+        "nomePPG": { "type": "literal" , "value": "TECNOLOGIA E GESTÃO EM EDUCAÇÃO A DISTÂNCIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011031P6" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA ANIMAL TROPICAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "98" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011032P2" } ,
+        "nomePPG": { "type": "literal" , "value": "INFORMÁTICA APLICADA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "68" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011038P0" } ,
+        "nomePPG": { "type": "literal" , "value": "EDUCAÇÃO, CULTURAS E IDENTIDADES" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "11" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011070P1" } ,
+        "nomePPG": { "type": "literal" , "value": "CONTROLADORIA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "21" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011071P8" } ,
+        "nomePPG": { "type": "literal" , "value": "BIODIVERSIDADE E CONSERVAÇÃO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "89" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011073P0" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE ÚNICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "91" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011074P7" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA FÍSICA" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "59" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25003011075P3" } ,
+        "nomePPG": { "type": "literal" , "value": "ESTUDOS DA LINGUAGEM" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "15" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018009P7" } ,
+        "nomePPG": { "type": "literal" , "value": "CIENCIAS DA SAUDE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "104" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018010P5" } ,
+        "nomePPG": { "type": "literal" , "value": "GESTÃO DO DESENVOLVIMENTO LOCAL SUSTENTÁVEL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "57" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018012P8" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA CIVIL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018016P3" } ,
+        "nomePPG": { "type": "literal" , "value": "PERÍCIAS FORENSES" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "43" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018018P6" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA DE SISTEMAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "58" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018070P8" } ,
+        "nomePPG": { "type": "literal" , "value": "FORMAÇÃO DE PROFESSORES E PRÁTICAS INTERDISCIPLINARES" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "51" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018071P4" } ,
+        "nomePPG": { "type": "literal" , "value": "PRÁTICAS E INOVAÇÃO EM SAÚDE MENTAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "9" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018072P0" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIA E TECNOLOGIA AMBIENTAL PARA O SEMIÁRIDO" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "99" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018075P0" } ,
+        "nomePPG": { "type": "literal" , "value": "SAÚDE E DESENVOLVIMENTO SOCIOAMBIENTAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "48" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "3.0" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019039P4" } ,
+        "nomePPG": { "type": "literal" , "value": "CIÊNCIAS DA SAÚDE" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "14" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "2.625" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25001019061P0" } ,
+        "nomePPG": { "type": "literal" , "value": "ENGENHARIA MINERAL" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "6" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "2.5" }
+      } ,
+      { 
+        "cdPPG": { "type": "literal" , "value": "25004018073P7" } ,
+        "nomePPG": { "type": "literal" , "value": "CULTURAS AFRICANAS, DA DIÁSPORA, E DOS POVOS INDÍGENAS" } ,
+        "totalProducoes": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "value": "5" } ,
+        "mediaConceito": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#decimal" , "value": "1.0" }
+      }
+    ]
+  }
+}

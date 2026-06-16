@@ -1,0 +1,30 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT
+    ?cdPPG
+    ?nomePPG
+    ?ano
+    (AVG(xsd:decimal(?indiceH)) AS ?indiceHMedio)
+WHERE {
+
+    ?ppg a cti:PPG ;
+         cti:cd_programa_ies ?cdPPG ;
+         cti:nm_programa_ies ?nomePPG .
+
+    ?docente a cti:Docente ;
+             cti:membro ?ppg ;
+             cti:nm_pessoa ?nomePessoa .
+
+    ?autor a cti:Autor ;
+           cti:nm_pessoa ?nomePessoa ;
+           cti:mensurado ?citacao .
+
+    ?citacao
+        cti:an_base_citacao ?ano ;
+        cti:nr_indice_h ?indiceH .
+
+    FILTER(?ano >= 2017 && ?ano <= 2024)
+}
+GROUP BY ?cdPPG ?nomePPG ?ano
+ORDER BY ?nomePPG ?ano

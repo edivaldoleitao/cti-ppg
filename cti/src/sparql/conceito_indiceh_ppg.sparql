@@ -1,0 +1,28 @@
+PREFIX cti: <http://gic.ufrpe.br/cti/vocabulary/cti#>
+
+SELECT ?nomePPG ?ano ?conceito (AVG(?indiceH) AS ?indiceHMedio)
+WHERE {
+  
+  # 1. BLOCO INTERNO: O banco é obrigado a resolver isso aqui primeiro
+  {
+    SELECT ?nomePPG ?ano ?conceito ?docente
+    WHERE {
+      ?ppg cti:nm_programa_ies ?nomePPG ;
+           cti:avaliado ?objConceito .
+           
+      ?objConceito cti:cd_conceito_programa ?conceito ;
+                   cti:an_base_conceito ?ano .
+                   
+      ?docente cti:membro ?ppg .
+    }
+  }
+  
+  # 2. Agora, apenas para os docentes encontrados, ele altera a URI
+  BIND(IRI(REPLACE(STR(?docente), "DOCENTE_", "Autor_")) AS ?autor)
+  
+  # 3. Busca direta e exata pelo índice H do Autor (processamento instantâneo)
+  ?autor cti:mensurado ?objCitacao .
+  ?objCitacao cti:nr_indice_h ?indiceH .
+}
+GROUP BY ?nomePPG ?ano ?conceito
+ORDER BY ?nomePPG DESC(?ano)
